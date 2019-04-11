@@ -1,5 +1,3 @@
-
-
 import keras
 from keras.models import load_model
 from keras.preprocessing import image
@@ -8,8 +6,6 @@ import cv2
 import os
 def empty(x):
     pass
-
-
 
 def get_parameters():
     global l_h
@@ -77,15 +73,6 @@ def get_parameters():
             menu()
             
             
-
-
-
-
-
-
-
-
-
 def get_image(l_h, l_s, l_v, u_h, u_s, u_v):
     cap=cv2.VideoCapture(0)    
 
@@ -188,9 +175,6 @@ def get_prediction(test_image):
     elif prediction[0][24] == 1:
               return 'Y'
 
-
-
-
 def menu():
     global l_h
     global l_s
@@ -229,12 +213,6 @@ def menu():
         return
 
 
-
-
-
-
-
-
 def main():
     global imgsrc
     global img
@@ -263,10 +241,6 @@ def main():
         print("Exiting....\n")
         return
 
-
-
-	
-			
 if __name__=="__main__":
         main()
 
