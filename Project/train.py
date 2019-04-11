@@ -12,10 +12,6 @@ import matplotlib.pyplot as plt
 from keras.preprocessing.image import ImageDataGenerator
 
 
-
-
-    
-
 def model():
     #x_train,y_train,x_test,y_test=getData()
     img = cv2.imread('/Users/manukarreddy/PycharmProjects/Project_ASL/mydata/training_set/A/5.png')
